@@ -1,0 +1,60 @@
+.main {
+    background: #1e1e1e;
+    height: 100%;
+}
+
+.header {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.button-direction {
+    color: white;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.button-direction i {
+    margin: 0 10px;
+}
+
+.search-audio {
+    margin: auto 0;
+    width: 100%;
+}
+
+.search-audio input {
+    border-radius: 999px;
+    border: none;
+    background: #000;
+    color: white;
+    padding: 20px 20px;
+}
+
+.search-audio input:focus {
+    outline: none;
+}
+
+.search-audio input::placeholder {
+    color: white;
+}
+
+.button-function {
+    margin: auto auto;
+}
+
+.button-function button {
+    background: hsla(0, 0%, 100%, 0.1);
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.button-function button i {
+    color: white;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.list-group {
+    background: #231b2e;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    outline: none;
+    background: #231b2e;
+    color: white;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-play {
+    margin: auto 0;
+    font-size: 30px;
+    color: #d6cae2;
+}
+
+.navbar-brand li {
+    border: none;
+    background: #231b2e;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link li {
+    border: none;
+    outline: none;
+    background: #231b2e;
+    color: white;
+    font-size: 17px;
+}
+
+.nav-link i {
+    margin: auto 20px;
+    color: white;
+    font-size: 16px;
+}
+
+hr {
+    width: 140px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.card {
+    width: 80%;
+    margin: 5px auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-login {
+    background: #7200a1;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.67;
+    font-weight: 600;
+}
+
+.card-login button {
+    background: hsla(0, 0%, 100%, 0.1);
+    border: none;
+    color: white;
+    border: white 2px solid;
+    padding: 6px 36px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.card-update-vip {
+    border-radius: 8px;
+    text-align: center;
+    background-image: linear-gradient(117deg, #5a4be7, #c86dd7 102%);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.67;
+    font-weight: 600;
+}
+
+.card-update-vip button {
+    border: none;
+    color: black;
+    border: white 1px solid;
+    padding: 6px 36px;
+    border-radius: 999px;
+    background-color: #ffdb00;
+    border-color: #ffdb00;
+    font-weight: 600;
+}
