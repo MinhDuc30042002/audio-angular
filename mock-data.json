@@ -1,0 +1,35 @@
+{
+    "category": [{
+            "id": 1,
+            "name": "Nhạc Việt"
+        },
+        {
+            "id": 2,
+            "name": "US-UK"
+        },
+        {
+            "id": 3,
+            "name": "Nhạc Rock"
+        },
+        {
+            "id": 4,
+            "name": "Nhạc Trẻ"
+        },
+        {
+            "id": 5,
+            "name": "EDM"
+        },
+        {
+            "id": 6,
+            "name": "Top Hits Việt Nam"
+        }
+    ],
+
+    "music": [{
+        "id": 1,
+        "name": "Đám Cưới Nha?",
+        "singer": "Hồng Thanh, Mie",
+        "time": "02:55",
+        "audio": "https://mp3-s1-zmp3.zadn.vn/d2173ae863a98af7d3b8/7483268733970923050?authen=exp=1648365427~acl=/d2173ae863a98af7d3b8/*~hmac=95409aaa7d74ef4611339c22c7ab7321&fs=MTY0ODE5MjYyNzQyMXx3ZWJWNnwxMDU1MDQxMjmUsIC5fDI3LjmUsIC0LjE4NC4yNDmUsIC"
+    }]
+}

@@ -1,0 +1,62 @@
+.audio {
+    width: 100%;
+    background: #1e1e1e;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.detail-audio {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.img-audio {
+    width: 100%;
+}
+
+.img-audio img {
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.karaoke {
+    color: white;
+    padding: 0 50px;
+}
+
+.timeline {
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.control-timeline {
+    margin: 0 auto;
+}
+
+.control-timeline i {
+    margin: 10px 10px;
+    color: white;
+}
+
+.control-timeline button {
+    border: none;
+    background: none;
+}
+
+.fa-circle-play {
+    font-size: 36px;
+}
+
+.fa-pause {
+    font-size: 36px;
+}
+
+#ion-pause {
+    font-size: 36px;
+}
+
+.range-timeline input {
+    margin: 0 auto;
+    width: 50%;
+}

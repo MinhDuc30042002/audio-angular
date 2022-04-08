@@ -1,0 +1,29 @@
+<div *ngIf="inforSong" class="audio">
+    <div class="detail-audio row">
+        <div class="img-audio col-md-6">
+            <img src="{{inforSong.thumbnail}}" alt="Bai hat a">
+        </div>
+        <div class="karaoke col-md-6">
+            <p>Đang làm</p>
+            <p>{{readLyric(inforSong.lyric)}}</p>
+        </div>
+    </div>
+
+    <div class="timeline col-md-12">
+        <div class="name-song row-md">
+            <label for="name-song">{{inforSong.name}} - {{inforSong.performer}}</label>
+        </div>
+        <div class="range-timeline row-md">
+            <audio controls>
+                <source src="{{sourceAudio(inforSong.source)}}">
+            </audio>
+        </div>
+        <div class="control-timeline row-md">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <i (click)="Pause()" (click)="Play()" id="ion-play" class="fa-regular fa-circle-play"></i>
+            <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-repeat"></i>
+        </div>
+    </div>
+</div>

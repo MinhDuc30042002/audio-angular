@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Mono&display=swap');
+.songs {
+    background: #1e1e1e;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.header {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.button-direction {
+    color: white;
+    margin: 0 5px;
+}
+
+.button-direction button {
+    background: hsla(0, 0%, 100%, 0.1);
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    margin: 0 3px;
+}
+
+.button-direction i {
+    margin: 0 auto;
+    font-size: 16px;
+    color: white;
+}
+
+.search-audio {
+    margin: auto 0;
+    width: 100%;
+}
+
+.search-audio input {
+    border-radius: 999px;
+    border: none;
+    background: #000;
+    color: white;
+    padding: 20px 20px;
+}
+
+.search-audio input:focus {
+    outline: none;
+}
+
+.search-audio input::placeholder {
+    color: white;
+}
+
+.button-function {
+    margin: auto auto;
+}
+
+.button-function button {
+    background: hsla(0, 0%, 100%, 0.1);
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.button-function button i {
+    color: white;
+}
+
+table {
+    border: none;
+    color: white;
+    outline: none;
+}
+
+tr img {
+    border-radius: 5px;
+}
+
+.singer-of-audio {
+    margin: auto 10px;
+    letter-spacing: 1.5;
+}
+
+.singer-of-audio b {
+    font-size: 16px
+}
+
+.singer-of-audio p {
+    font-size: 13px;
+    color: hsla(0, 0%, 100%, 0.747);
+}
+
+tr td {
+    margin: auto 0;
+}
+
+h3 {
+    color: white;
+}
+
+.introduce-song {
+    margin: auto 30px;
+}
+
+.song-position {
+    color: rgb(255, 255, 255);
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+}

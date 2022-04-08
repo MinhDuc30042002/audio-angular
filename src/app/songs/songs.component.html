@@ -1,0 +1,31 @@
+<div class="songs col-md-12">
+    <h3 class="h5 mb-4 text-center">Mới phát hành</h3>
+    <div class="table-wrap">
+        <table class="table table-borderless">
+            <tbody>
+                <tr *ngFor="let song of listSong">
+                    <th class="song-position" scope="row">
+                        {{song.position}}
+                    </th>
+                    <td class="d-flex justified-center">
+                        <div class="image-song">
+                            <a routerLink="/audio/{{song.code}}">
+                                <img src="{{song.thumbnail}}" alt="Hình ảnh của bài hát">
+                            </a>
+                        </div>
+
+                        <div class="introduce-song">
+                            <div class="song-name">{{song.name}}</div>
+                            <div class="artists-name">{{song.artists_names}}</div>
+                        </div>
+
+                    </td>
+
+                    <td class="duration-song">
+                        {{getMinutesInDuration(song.duration) + ':' + getSecondInDuration(song.duration)}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

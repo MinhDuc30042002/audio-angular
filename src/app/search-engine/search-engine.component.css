@@ -1,0 +1,71 @@
+.search-engine {
+    width: 100%;
+    background: #1e1e1e;
+}
+
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    padding: 50px;
+    margin: 0 auto;
+    background: #1e1e1e;
+}
+
+.button-direction {
+    color: white;
+    margin: 0 5px;
+}
+
+.button-direction button {
+    background: hsla(0, 0%, 100%, 0.1);
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    margin: 0 3px;
+}
+
+.button-direction i {
+    margin: 0 auto;
+    font-size: 16px;
+    color: white;
+}
+
+.search-audio {
+    margin: auto 0;
+    width: 100%;
+}
+
+.search-audio input {
+    border-radius: 999px;
+    border: none;
+    background: #000;
+    color: white;
+    padding: 20px 20px;
+}
+
+.search-audio input:focus {
+    outline: none;
+}
+
+.search-audio input::placeholder {
+    color: white;
+}
+
+.button-function {
+    margin: auto auto;
+}
+
+.button-function button {
+    background: hsla(0, 0%, 100%, 0.1);
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.button-function button i {
+    color: white;
+}

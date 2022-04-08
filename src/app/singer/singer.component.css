@@ -1,26 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Mono&display=swap');
-.main {
+.singer {
     background: #1e1e1e;
     height: 100%;
     width: 100%;
     padding-bottom: 50px;
 }
 
-.option-today {
+.singer-list {
     width: 95%;
     margin: 0 auto;
 }
 
-h2 {
+.singer-list h2 {
     color: white;
     font-size: 18px;
     font-weight: 600;
-}
-
-.wrapper {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
 }
 
 .card {
@@ -31,17 +26,21 @@ h2 {
     border: none;
 }
 
+.card img {
+    border-radius: 50%;
+}
+
 .card-title {
-    font-size: 14px;
+    font-size: 18px;
     width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card-text {
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
-}
-
-.music-on-day {
-    width: 95%;
-    margin: 0 auto;
+    text-align: center;
+    padding: 0 10px;
 }
